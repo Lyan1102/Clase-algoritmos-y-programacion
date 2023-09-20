@@ -15,26 +15,46 @@ print ("finalize el ciclo")
 #ingresar hasta tres numeros, es este caso la edad, y cuando genere la variable correcta
 #ejecute en pantalla la siguiente accion, por ejemplo: digita tu numero de cedula, 3 digite si desea
 #saber el numero de silla donde fue asignado
-print ("admision de entrar")
-
-Nombre = str (input ("Su Nombre:   "))
-Edad = input ("Su edad:    ")
-
-for Edad in range (18, 40):
-    print (Edad-7)
-print ("Esos son los asientos disponibles")
-
-Edad = 18
-if Edad > 18:
-    print ("su asiento esta en la cuarta fila del numero 11 al 32")
-else:
-    print ("ubiquese en la primera fila o en los asientos sobrantes por ser un invitado especial")
 
 
-Identifiacion = input ("Numero de identificacion:    ")
+
+
+#print ("admision de entrar")
+
+#Nombre = str (input ("Su Nombre:   "))
+#Edad = input ("Su edad:    ")
+
+#for Edad in range (18, 40):
+#    print (Edad-7)
+#print ("Esos son los asientos disponibles")
+
+#Edad = 18
+#if Edad > 18:
+#    print ("su asiento esta en la cuarta fila del numero 11 al 32")
+#else:
+#    print ("ubiquese en la primera fila o en los asientos sobrantes por ser un invitado especial")
+
+
+#Identifiacion = input ("Numero de identificacion:    ")
 
 
 
 #listaEdades = [15, 16, 17, 18]
 
+#el programa que vamos a realizar tiene como fianlidad realizar un ciclo donde le pida al usuario 
+#ingresar hasta tres numeros, es este caso la edad, y cuando genere la variable correcta
+#ejecute en pantalla la siguiente accion, por ejemplo: digita tu numero de cedula, 3 digite si desea
+#saber el numero de silla donde fue asignado con while
+print ("admision de entrar")
 
+Nombre = str (input ("Su Nombre:   "))
+Edad = input ("Su edad:    ")
+
+while Edad<18:
+    print("ubiquesen en los asientos del 20 al 30")
+    if Edad == 18:
+        print ("ubiquese en el asiento del 1 al 20")
+
+
+
+Identifiacion = input ("Numero de identificacion:    ")
